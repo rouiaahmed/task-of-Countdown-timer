@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+   <title>countdown timer</title>
+   <link rel="stylesheet" href="count.css">
+    </head>
+    <body>
+        <div class="input1">
+            <input class="memory" type="text" placeholder=" Your Memory..">
+        </div>
+        <div class="input1">
+            <input class="datee" type="datetime-local" onchange="calcTime(this.value)">
+        </div>
+        <div>
+            <button class="click" >Countdown</button>
+        </div>
+       <div class="container">
+       <div class="countdown">
+        <h3 id="days"></h3>
+        <span>DAYS</span>
+        </div>
+
+        <div class="countdown">
+        <h3 id="hours"></h3>
+        <span>HOURS</span>
+        </div>
+
+        <div class="countdown">
+        <h3 id="minutes"></h3>
+        <span>MINUTES</span>
+        </div>
+
+        <div class="countdown">
+         <h3 id="seconds"></h3>
+         <span>SECONDS</span>
+         </div>
+        </div>
+    
+
+      
+    </body>
+    <script src="count.js"></script>
+</html>
